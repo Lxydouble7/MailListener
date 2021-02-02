@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SQL Server">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.20">
+    <root id="1">
+      <ServerVersion>13.0.5598</ServerVersion>
+      <PermissionsCheckSum>91503929947</PermissionsCheckSum>
+      <Grants>0|root||1|connect sql|G
+0|root||2|alter any login|G
+0|root||2|alter trace|G
+0|root||2|view any database|G
+0|root||101|view any definition|G
+0|root||102|authenticate server|G
+0|root||102|view any definition|G
+0|root||102|view server state|G
+0|root||103|authenticate server|G
+0|root||105|control server|G
+0|root||105|view any definition|G
+0|root||106|view any definition|G
+0|root||257|connect sql|G
+0|root||257|view any definition|G
+0|root||257|view server state|G
+0|root||260|connect sql|G
+0|root||261|connect sql|G
+0|root||262|connect sql|G
+0|root||263|alter any availability group|G
+0|root||263|connect sql|G
+0|root||263|view server state|G
+0|root||264|connect sql|G
+0|root||265|alter any event session|G
+0|root||265|connect any database|G
+0|root||265|connect sql|G
+0|root||265|view any definition|G
+0|root||265|view server state|G
+0|root||272|connect sql|G
+0|root||273|connect sql|G
+0|root||274|connect sql|G
+0|root||275|connect sql|G
+0|root||276|connect sql|G
+0|root||277|connect sql|G
+0|root||278|connect sql|G
+0|root||279|connect sql|G
+0|root||280|connect sql|G
+0|root||281|connect sql|G
+0|root||282|connect sql|G
+0|root||283|connect sql|G
+0|root||284|connect sql|G
+0|root||285|connect sql|G
+0|root||286|connect sql|G
+0|root||287|connect sql|G
+0|root||288|connect sql|G
+0|root||289|connect sql|G
+0|root||290|connect sql|G
+0|root||291|connect sql|G
+0|root||292|connect sql|G
+0|root||293|connect sql|G
+0|root||294|connect sql|G
+0|root||295|connect sql|G
+0|root||296|connect sql|G
+0|root||297|connect sql|G
+0|root||298|connect sql|G
+0|root||299|connect sql|G
+2|||2|connect|G
+3|||2|connect|G
+4|||2|connect|G
+5|||2|connect|G
+65536|||276|connect|G
+</Grants>
+    </root>
+    <database id="2" parent="1" name="AADserviceDB">
+      <ObjectId>8</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="ADALTokenCacheDb">
+      <ObjectId>24</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="CCMS">
+      <ObjectId>9</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="CMS_OLD">
+      <ObjectId>10</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="Campus">
+      <ObjectId>31</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="CtrtMgmtDB">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="CtrtMgmtDB_DEV">
+      <ObjectId>11</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="DADLCocacola">
+      <ObjectId>36</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="DADLCommon">
+      <ObjectId>35</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="DADLControl">
+      <ObjectId>34</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="DADLOOH">
+      <ObjectId>30</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="DANSSO">
+      <ObjectId>33</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="DanChinaUserDB">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="DanPlugin">
+      <ObjectId>19</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="Datademo">
+      <ObjectId>25</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="Dentsu">
+      <ObjectId>20</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="HAtest">
+      <ObjectId>26</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="HDbot">
+      <ObjectId>27</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="IdeaLabDB">
+      <ObjectId>14</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="IsobarReportDB">
+      <ObjectId>28</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="KOOHDB">
+      <ObjectId>29</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="SandBoxDB">
+      <ObjectId>15</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="TimeSheet">
+      <ObjectId>16</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="TimeSheet_DEV">
+      <ObjectId>32</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="26" parent="1" name="Trend">
+      <ObjectId>18</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="TrendDB">
+      <ObjectId>17</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="campus2017">
+      <ObjectId>12</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="29" parent="1" name="cmsdb">
+      <ObjectId>37</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="30" parent="1" name="dancareers">
+      <ObjectId>13</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="31" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="32" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="33" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="optmgmtdb">
+      <ObjectId>38</ObjectId>
+      <PermissionsCheckSum>8002482841</PermissionsCheckSum>
+      <Grants>38|database||0|backup database|D
+38|database||0|backup log|D
+38|database||0|view any column encryption key definition|G
+38|database||0|view any column master key definition|G
+38|database||1|connect|G
+38|database||5|connect|G
+38|database||6|connect|G
+</Grants>
+      <Current>1</Current>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+      <Fingerprint>38.44223/1F8F2197-B8AF-40FD-86C3-42C485CE8095@sd10262395C</Fingerprint>
+    </database>
+    <database id="35" parent="1" name="rdscore">
+      <ObjectId>5</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="36" parent="1" name="referencecheckDB">
+      <ObjectId>23</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="37" parent="1" name="referencecheckDBTemp">
+      <ObjectId>21</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="38" parent="1" name="referencecheckDBTest">
+      <ObjectId>22</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="39" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <login id="40" parent="1" name="sa">
+      <ObjectId>1</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="41" parent="1" name="public">
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="42" parent="1" name="sysadmin">
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="43" parent="1" name="securityadmin">
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="44" parent="1" name="serveradmin">
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="45" parent="1" name="setupadmin">
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="46" parent="1" name="processadmin">
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="47" parent="1" name="diskadmin">
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="48" parent="1" name="dbcreator">
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="49" parent="1" name="bulkadmin">
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="50" parent="1" name="##MS_SQLResourceSigningCertificate##">
+      <ObjectId>101</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="51" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+      <ObjectId>102</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="52" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+      <ObjectId>103</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="53" parent="1" name="##MS_PolicySigningCertificate##">
+      <ObjectId>105</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="54" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+      <ObjectId>106</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="55" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+      <ObjectId>257</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="56" parent="1" name="NT SERVICE\SQLWriter">
+      <ObjectId>260</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="57" parent="1" name="NT SERVICE\Winmgmt">
+      <ObjectId>261</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="58" parent="1" name="NT SERVICE\MSSQLSERVER">
+      <ObjectId>262</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="59" parent="1" name="NT AUTHORITY\SYSTEM">
+      <ObjectId>263</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="60" parent="1" name="NT SERVICE\SQLSERVERAGENT">
+      <ObjectId>264</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="61" parent="1" name="NT SERVICE\SQLTELEMETRY">
+      <ObjectId>265</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="62" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <ObjectId>272</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="63" parent="1" name="##MS_AgentSigningCertificate##">
+      <ObjectId>273</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="64" parent="1" name="sd10262395C\Administrator">
+      <ObjectId>274</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="65" parent="1" name="aurora">
+      <ObjectId>275</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="66" parent="1" name="rds_ha_sec_user">
+      <ObjectId>276</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="67" parent="1" name="sqladmin">
+      <ObjectId>277</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="68" parent="1" name="aadsql">
+      <ObjectId>278</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="69" parent="1" name="botadmin">
+      <ObjectId>279</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="70" parent="1" name="isobardb">
+      <ObjectId>280</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="71" parent="1" name="trend">
+      <ObjectId>281</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="72" parent="1" name="haadmin">
+      <ObjectId>282</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="73" parent="1" name="dadlforooh">
+      <ObjectId>283</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="74" parent="1" name="idealabsa">
+      <ObjectId>284</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="75" parent="1" name="ddmuser">
+      <ObjectId>285</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="76" parent="1" name="ctrmgmtdbuser">
+      <ObjectId>286</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="77" parent="1" name="dcnuser">
+      <ObjectId>287</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="78" parent="1" name="koohuser">
+      <ObjectId>288</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="79" parent="1" name="rcdbuser">
+      <ObjectId>289</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="80" parent="1" name="danhrsa">
+      <ObjectId>290</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="81" parent="1" name="tsuser">
+      <ObjectId>291</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="82" parent="1" name="tsduser">
+      <ObjectId>292</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="83" parent="1" name="andyxiao">
+      <ObjectId>293</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="84" parent="1" name="ssoadmin">
+      <ObjectId>294</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="85" parent="1" name="rdsdt_dtsacct">
+      <ObjectId>295</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="86" parent="1" name="dadladmin">
+      <ObjectId>296</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="87" parent="1" name="cmsuser">
+      <ObjectId>297</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="88" parent="1" name="dcnreader">
+      <ObjectId>298</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="89" parent="1" name="omuser">
+      <ObjectId>299</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <schema id="90" parent="34" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="91" parent="34" name="SupportMail">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="92" parent="34" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="93" parent="34" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="94" parent="34" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="95" parent="34" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="96" parent="34" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="97" parent="34" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="98" parent="34" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="99" parent="34" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="100" parent="34" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="101" parent="34" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-01-29.18:50:48.530</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="102" parent="34" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="103" parent="34" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="104" parent="34" name="public">
+      <ObjectId>0</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="105" parent="34" name="dbo">
+      <ObjectId>1</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="106" parent="34" name="guest">
+      <ObjectId>2</ObjectId>
+      <DefaultSchema>guest</DefaultSchema>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="107" parent="34" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="108" parent="34" name="sys">
+      <ObjectId>4</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="109" parent="34" name="aurora">
+      <ObjectId>5</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="110" parent="34" name="omuser">
+      <ObjectId>6</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="111" parent="34" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="112" parent="34" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="113" parent="34" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="114" parent="34" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="115" parent="34" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="116" parent="34" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="117" parent="34" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="118" parent="34" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="119" parent="34" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <table id="120" parent="101" name="Onboarding">
+      <ObjectId>565577053</ObjectId>
+      <CreatedTimestamp>2021-01-29.01:29:25.890</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-29.18:29:39.740</ModifiedTimestamp>
+    </table>
+    <table id="121" parent="101" name="Termination">
+      <ObjectId>773577794</ObjectId>
+      <CreatedTimestamp>2021-01-29.01:30:18.583</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-29.18:29:39.743</ModifiedTimestamp>
+    </table>
+    <column id="122" parent="120" name="tID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="120" name="HireDate">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__Onboardin__HireD__239E4DCF</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="124" parent="120" name="WorkerID">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="120" name="LegalName">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__Onboardin__Legal__24927208</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="126" parent="120" name="Brand">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__Onboardin__Brand__25869641</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="127" parent="120" name="City">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__Onboarding__City__267ABA7A</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="128" parent="120" name="WorkerType">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__Onboardin__Worke__276EDEB3</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="129" parent="120" name="WorkerSub_Type">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__Onboardin__Worke__286302EC</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="130" parent="120" name="SupervisoryOrganization">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__Onboardin__Super__29572725</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="131" parent="120" name="Department">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__Onboardin__Depar__2A4B4B5E</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="132" parent="120" name="LineManager">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__Onboardin__LineM__2B3F6F97</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="133" parent="120" name="PositionTitle">
+      <Position>12</Position>
+      <DefaultConstraintName>DF__Onboardin__Posit__2C3393D0</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="134" parent="120" name="BusinessTitle">
+      <Position>13</Position>
+      <DefaultConstraintName>DF__Onboardin__Busin__2D27B809</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="135" parent="120" name="CreateDate">
+      <Position>14</Position>
+      <DataType>smalldatetime|0s</DataType>
+    </column>
+    <index id="136" parent="120" name="PK__Onboardi__DC115707C7B7338A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="137" parent="120" name="PK__Onboardi__DC115707C7B7338A">
+      <ObjectId>581577110</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-29.01:29:25.897</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>tID</ColNames>
+      <UnderlyingIndexName>PK__Onboardi__DC115707C7B7338A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="138" parent="120" name="DF__Onboardin__HireD__239E4DCF">
+      <ObjectId>597577167</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>HireDate</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="139" parent="120" name="DF__Onboardin__Legal__24927208">
+      <ObjectId>613577224</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>LegalName</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="140" parent="120" name="DF__Onboardin__Brand__25869641">
+      <ObjectId>629577281</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>Brand</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="141" parent="120" name="DF__Onboarding__City__267ABA7A">
+      <ObjectId>645577338</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>City</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="142" parent="120" name="DF__Onboardin__Worke__276EDEB3">
+      <ObjectId>661577395</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>WorkerType</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="143" parent="120" name="DF__Onboardin__Worke__286302EC">
+      <ObjectId>677577452</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>WorkerSub_Type</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="144" parent="120" name="DF__Onboardin__Super__29572725">
+      <ObjectId>693577509</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>SupervisoryOrganization</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="145" parent="120" name="DF__Onboardin__Depar__2A4B4B5E">
+      <ObjectId>709577566</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.897</ModifiedTimestamp>
+      <ColNames>Department</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="146" parent="120" name="DF__Onboardin__LineM__2B3F6F97">
+      <ObjectId>725577623</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.900</ModifiedTimestamp>
+      <ColNames>LineManager</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="147" parent="120" name="DF__Onboardin__Posit__2C3393D0">
+      <ObjectId>741577680</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.900</ModifiedTimestamp>
+      <ColNames>PositionTitle</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="148" parent="120" name="DF__Onboardin__Busin__2D27B809">
+      <ObjectId>757577737</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:29:25.900</ModifiedTimestamp>
+      <ColNames>BusinessTitle</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="149" parent="121" name="tID">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="121" name="LastDayofWork">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__Terminati__LastD__300424B4</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="151" parent="121" name="TerminationDate">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__Terminati__Termi__30F848ED</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="152" parent="121" name="EmployeeID">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="121" name="LegalName">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__Terminati__Legal__31EC6D26</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="154" parent="121" name="Brand">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__Terminati__Brand__32E0915F</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="155" parent="121" name="WorkLocation">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__Terminati__WorkL__33D4B598</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="156" parent="121" name="WorkerType">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__Terminati__Worke__34C8D9D1</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="157" parent="121" name="WorkerSub_Type">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__Terminati__Worke__35BCFE0A</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="158" parent="121" name="Department">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__Terminati__Depar__36B12243</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="159" parent="121" name="LineManager">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__Terminati__LineM__37A5467C</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="160" parent="121" name="PositionTitle">
+      <Position>12</Position>
+      <DefaultConstraintName>DF__Terminati__Posit__38996AB5</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="161" parent="121" name="BusinessTitle">
+      <Position>13</Position>
+      <DefaultConstraintName>DF__Terminati__Busin__398D8EEE</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(100 char)|0s</DataType>
+    </column>
+    <column id="162" parent="121" name="CreateDate">
+      <Position>14</Position>
+      <DataType>smalldatetime|0s</DataType>
+    </column>
+    <index id="163" parent="121" name="PK__Terminat__DC115707FF7C6125">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="164" parent="121" name="PK__Terminat__DC115707FF7C6125">
+      <ObjectId>789577851</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-29.01:30:18.587</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>tID</ColNames>
+      <UnderlyingIndexName>PK__Terminat__DC115707FF7C6125</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="165" parent="121" name="DF__Terminati__LastD__300424B4">
+      <ObjectId>805577908</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>LastDayofWork</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="166" parent="121" name="DF__Terminati__Termi__30F848ED">
+      <ObjectId>821577965</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>TerminationDate</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="167" parent="121" name="DF__Terminati__Legal__31EC6D26">
+      <ObjectId>837578022</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>LegalName</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="168" parent="121" name="DF__Terminati__Brand__32E0915F">
+      <ObjectId>853578079</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>Brand</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="169" parent="121" name="DF__Terminati__WorkL__33D4B598">
+      <ObjectId>869578136</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>WorkLocation</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="170" parent="121" name="DF__Terminati__Worke__34C8D9D1">
+      <ObjectId>885578193</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.587</ModifiedTimestamp>
+      <ColNames>WorkerType</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="171" parent="121" name="DF__Terminati__Worke__35BCFE0A">
+      <ObjectId>901578250</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.593</ModifiedTimestamp>
+      <ColNames>WorkerSub_Type</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="172" parent="121" name="DF__Terminati__Depar__36B12243">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.593</ModifiedTimestamp>
+      <ColNames>Department</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="173" parent="121" name="DF__Terminati__LineM__37A5467C">
+      <ObjectId>933578364</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.593</ModifiedTimestamp>
+      <ColNames>LineManager</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="174" parent="121" name="DF__Terminati__Posit__38996AB5">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.593</ModifiedTimestamp>
+      <ColNames>PositionTitle</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="175" parent="121" name="DF__Terminati__Busin__398D8EEE">
+      <ObjectId>965578478</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-01-29.01:30:18.593</ModifiedTimestamp>
+      <ColNames>BusinessTitle</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+  </database-model>
+</dataSource>
